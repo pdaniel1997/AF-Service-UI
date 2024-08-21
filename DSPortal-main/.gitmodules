@@ -1,0 +1,3 @@
+[submodule "templates"]
+  path = templates
+  url = https://gitlab.kesselrun.us/kr/adcp/integration/dev-support-templates.git
