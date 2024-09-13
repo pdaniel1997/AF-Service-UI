@@ -1,7 +1,6 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
-import logo from "../pages/resources/avg.jpg"
+import PropTypes from "prop-types";
+import React from "react";
+import logo from "../pages/resources/avg.jpg"; // Adjust the path if necessary
 
 const Header = ({ siteTitle }) => (
   <header
@@ -20,29 +19,29 @@ const Header = ({ siteTitle }) => (
       }}
     >
       <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
+        <a
+          href="/"
           style={{
             color: `white`,
             textDecoration: `none`,
           }}
         >
           {siteTitle}
-        </Link>
+        </a>
       </h1>
       <div>
-        <img style={{ height: 80, marginBottom: 0 }} src={logo} />
+        <img style={{ height: 80, marginBottom: 0 }} src={logo} alt="Logo" />
       </div>
     </div>
   </header>
-)
+);
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
-}
+};
 
 Header.defaultProps = {
   siteTitle: ``,
-}
+};
 
-export default Header
+export default Header;
