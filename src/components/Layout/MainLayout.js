@@ -210,6 +210,7 @@ const MainLayout = () => {
                 title={item.IssueTypeRelation}
                 url={item.issueTypeURL}
                 mfa={item.functionalArea}
+                team={item.team}
               />
             ))}
             {filteredIssues.length === 0 && (
@@ -243,6 +244,7 @@ const MainLayout = () => {
                 text={article.text}
                 url={article.url}
                 mfa={article.functionalArea}
+                team={article.team}
               />
             ))}
             {filteredKnowledgeArticles.length === 0 && (
@@ -264,6 +266,7 @@ const styles = {
     margin: '0 auto',
     padding: '1.5rem',
     gap: '1rem',
+    boxSizing: 'border-box', // Ensures padding is inside the container
   },
   leftColumn: {
     flex: 1,
@@ -271,6 +274,7 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'stretch',
+    boxSizing: 'border-box',
   },
   rightColumn: {
     flex: 1,
@@ -278,6 +282,7 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'stretch',
+    boxSizing: 'border-box',
   },
   dropdownContainer: {
     display: 'flex',
@@ -286,18 +291,21 @@ const styles = {
     width: '100%',
     height: '10rem',
     alignItems: 'stretch',
+    boxSizing: 'border-box',
   },
   dropdownColumn: {
     display: 'flex',
     flexDirection: 'column',
     gap: '1rem',
     flex: 1,
+    boxSizing: 'border-box',
   },
   dropdown: {
     padding: '0.5rem',
     borderRadius: '4px',
     border: '1px solid #ccc',
     fontSize: '1rem',
+    boxSizing: 'border-box',
   },
   searchContainer: {
     display: 'flex',
@@ -305,6 +313,7 @@ const styles = {
     width: '100%',
     height: '10rem',
     alignItems: 'stretch',
+    boxSizing: 'border-box',
   },
   searchBar: {
     width: '75%',
@@ -312,6 +321,7 @@ const styles = {
     padding: '0.5rem',
     border: '1px solid #ccc',
     fontSize: '1rem',
+    boxSizing: 'border-box',
   },
   searchButton: {
     fontSize: '1rem',
@@ -320,15 +330,18 @@ const styles = {
     color: 'white',
     border: 'none',
     cursor: 'pointer',
+    boxSizing: 'border-box',
   },
   issueCardsContainer: {
     backgroundColor: '#E8E8E8',
-      padding: '1rem',
-      marginTop: '2rem',
-      display: 'grid',
-      gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))',
-      gap: '1rem',
-      flexGrow: 1,
+    padding: '1rem',
+    marginTop: '2rem',
+    display: 'grid',
+    gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))',
+    gap: '1rem',
+    alignItems: 'stretch',
+    gridAutoRows: '1fr', // Ensures all cards stretch to equal height
+    boxSizing: 'border-box',
   },
   knowledgeArticlesContainer: {
     backgroundColor: '#E8E8E8',
@@ -337,7 +350,9 @@ const styles = {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))',
     gap: '1rem',
-    flexGrow: 1,
+    alignItems: 'stretch',
+    gridAutoRows: '1fr', // Ensures all cards stretch to equal height
+    boxSizing: 'border-box',
   },
   resetButton: {
     padding: '0.5rem',
@@ -347,6 +362,7 @@ const styles = {
     cursor: 'pointer',
     marginTop: '1rem',
     color: 'white',
+    boxSizing: 'border-box',
   },
 };
 

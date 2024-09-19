@@ -1,30 +1,58 @@
 import React from 'react';
 
-const IssueCard = ({ title, url, mfa }) => {
+const IssueCard = ({ title, url, mfa, team }) => {
   return (
     <div style={styles.card}>
-      {/* Display MFA on the top right of the card */}
-      <div style={{ ...styles.mfa, position: 'absolute', top: '10px', right: '10px', marginBottom: '10px', padding: '0.3rem 0.6rem', fontSize: '0.8rem', backgroundColor: '#EEEEEE' }}>
-        MFA:
-        <span style={{ color: '#E47200', fontWeight: 'bold' }}> {mfa}</span> 
+      {/* Display MFA at the top */}
+      <div style={styles.mfa}>
+        MFA: <span style={styles.highlight}>{mfa}</span>
       </div>
+      
+      {/* Main content of the card */}
       <h3 style={styles.title}>{title}</h3>
       <a href={url} target="_blank" rel="noopener noreferrer">
         <button style={styles.button}>Create Issue</button>
       </a>
+
+      {/* Display Team at the bottom */}
+      <div style={styles.team}>
+        Team: <span style={styles.highlight}>{team}</span>
+      </div>
     </div>
   );
 };
 
 const styles = {
   card: {
-    position: 'relative',
-    border: '1px solid #ccc',
+    backgroundColor: '#fff',
     padding: '1rem',
-    marginBottom: '1rem',
-    backgroundColor: '#f9f9f9',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+    height: '100%',
+    boxSizing: 'border-box', // Ensures padding is inside the card
+    border: '1px solid #ccc',
     boxShadow: '0 2px 5px rgba(0, 0, 0, 0.1)',
-    textAlign: 'center',
+    alignItems: 'center'
+  },
+  mfa: {
+    fontSize: '0.9rem',
+    padding: '0.3rem 0.6rem',
+    backgroundColor: '#EEEEEE',
+    borderRadius: '5px',
+    alignSelf: 'flex-end',
+  },
+  team: {
+    fontSize: '0.9rem',
+    padding: '0.3rem 0.6rem',
+    backgroundColor: '#EEEEEE',
+    borderRadius: '5px',
+    alignSelf: 'flex-end', // Positions at the bottom
+    marginTop: 'auto', // Pushes the team section to the bottom
+  },
+  highlight: {
+    color: '#E47200',
+    fontWeight: 'bold',
   },
   title: {
     fontSize: '1.2rem',
@@ -37,6 +65,7 @@ const styles = {
     border: 'none',
     cursor: 'pointer',
     fontSize: '1rem',
+    marginBottom: '1rem'
   },
 };
 
