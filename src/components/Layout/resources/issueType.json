@@ -1,0 +1,226 @@
+[
+    {
+        "functionalArea": "ADCP Documentation",
+        "team": "ADCP Docs",
+        "IssueTypeRelation": "Request Technical Writer",
+        "issueTypeURL": "https://gitlab.kesselrun.us/kr/adcp/integration/dev-support-service-desk/-/issues/new?issue[title]=ADCP Documentation ADCP Docs Request Technical Writer&issuable_template=ADCP_Docs-Request_Technical_Writer",
+        "issue_category": "Docs",
+        "issue_subcategory": "Request"
+    },
+    {
+        "functionalArea": "ADCP Documentation",
+        "team": "ADCP Docs",
+        "IssueTypeRelation": "Reviewer Feedback",
+        "issueTypeURL": "https://gitlab.kesselrun.us/kr/adcp/integration/dev-support-service-desk/-/issues/new?issue[title]=ADCP Documentation ADCP Docs Reviewer Feedback&issuable_template=ADCP_Docs-Reviewer_Feedback",
+        "issue_category": "Docs",
+        "issue_subcategory": "Request"
+    },
+    {
+        "functionalArea": "ADCP Documentation",
+        "team": "ADCP Docs",
+        "IssueTypeRelation": "Reviewer Feedback",
+        "issueTypeURL": "https://gitlab.kesselrun.us/kr/adcp/integration/dev-support-service-desk/-/issues/new?issue[title]=ADCP Documentation ADCP Docs Reviewer Feedback&issuable_template=ADCP_Docs-Reviewer_Feedback",
+        "issue_category": "Docs",
+        "issue_subcategory": "Request"
+    },
+    {
+        "functionalArea": "ADCP Documentation",
+        "team": "ADCP Docs",
+        "IssueTypeRelation": "General Issue",
+        "issueTypeURL": "https://gitlab.kesselrun.us/kr/adcp/integration/dev-support-service-desk/-/issues/new?issue[title]=ADCP Documentation ADCP Docs General Issue&issuable_template=",
+        "issue_category": "Docs",
+        "issue_subcategory": "General Issue"
+    },
+    {
+        "functionalArea": "Customer Experience",
+        "team": "Customer Experience",
+        "IssueTypeRelation": "General Issue",
+        "issueTypeURL": "https://gitlab.kesselrun.us/kr/adcp/integration/dev-support-service-desk/-/issues/new?issue[title]=Customer Experience Customer Experience General Issue&issuable_template=",
+        "issue_category": "",
+        "issue_subcategory": ""
+    },
+    {
+        "functionalArea": "Dev and Deploy",
+        "team": "Auto Deploy",
+        "IssueTypeRelation": "General Issue",
+        "issueTypeURL": "https://gitlab.kesselrun.us/kr/adcp/integration/dev-support-service-desk/-/issues/new?issue[title]=Dev and Deploy Auto Deploy General Issue&issuable_template=Dev_Deploy-Autodeploy-General_Issue",
+        "issue_category": "",
+        "issue_subcategory": ""
+    },
+    {
+        "functionalArea": "Dev and Deploy",
+        "team": "CAT",
+        "IssueTypeRelation": "General Issue",
+        "issueTypeURL": "https://gitlab.kesselrun.us/kr/adcp/integration/dev-support-service-desk/-/issues/new?issue[title]=Dev and Deploy CAT General Issue&issuable_template=Dev_Deploy_CAT-General",
+        "issue_category": "CAT",
+        "issue_subcategory": "General Issue"
+    },
+    {
+        "functionalArea": "Dev and Deploy",
+        "team": "CAT",
+        "IssueTypeRelation": "Gitlab Change Request",
+        "issueTypeURL": "https://gitlab.kesselrun.us/kr/adcp/integration/dev-support-service-desk/-/issues/new?issue[title]=Dev and Deploy CAT Gitlab Change Request&issuable_template=Dev_Deploy-CAT-Tool-CAB",
+        "issue_category": "Change Request",
+        "issue_subcategory": "Gitlab"
+    },
+    {
+        "functionalArea": "Dev and Deploy",
+        "team": "CAT",
+        "IssueTypeRelation": "Gitlab Upgrade",
+        "issueTypeURL": "https://gitlab.kesselrun.us/kr/adcp/integration/dev-support-service-desk/-/issues/new?issue[title]=Dev and Deploy CAT Gitlab Upgrade&issuable_template=Dev_Deploy-CAT-Tool-Gitlab Upgrade",
+        "issue_category": "Gitlab",
+        "issue_subcategory": "Upgrade"
+    },
+    {
+        "functionalArea": "Dev and Deploy",
+        "team": "CAT",
+        "IssueTypeRelation": "Nexus Upgrade",
+        "issueTypeURL": "https://gitlab.kesselrun.us/kr/adcp/integration/dev-support-service-desk/-/issues/new?issue[title]=Dev and Deploy CAT Nexus Upgrade&issuable_template=Dev_Deploy-CAT-Tool-Nexus Upgrade",
+        "issue_category": "Nexus",
+        "issue_subcategory": "Upgrade"
+    },
+    {
+        "functionalArea": "Dev and Deploy",
+        "team": "CAT",
+        "IssueTypeRelation": "Vault Upgrade",
+        "issueTypeURL": "https://gitlab.kesselrun.us/kr/adcp/integration/dev-support-service-desk/-/issues/new?issue[title]=Dev and Deploy CAT Vault Upgrade&issuable_template=Dev_Deploy-CAT-Tool-Vault Upgrade",
+        "issue_category": "Vault",
+        "issue_subcategory": "Vault Upgrade"
+    },
+    {
+        "functionalArea": "Dev and Deploy",
+        "team": "RAAD",
+        "IssueTypeRelation": "Bug Report",
+        "issueTypeURL": "https://gitlab.kesselrun.us/kr/adcp/integration/dev-support-service-desk/-/issues/new?issue[title]=Dev and Deploy RAAD Bug Report&issuable_template=Dev_Deploy_RADD-BugReport",
+        "issue_category": "RADD",
+        "issue_subcategory": "Bug or Error"
+    },
+    {
+        "functionalArea": "Dev and Deploy",
+        "team": "RAAD",
+        "IssueTypeRelation": "Feature Request",
+        "issueTypeURL": "https://gitlab.kesselrun.us/kr/adcp/integration/dev-support-service-desk/-/issues/new?issue[title]=Dev and Deploy RAAD Feature Request&issuable_template=Dev_Deploy_RADD-FeatureRequest",
+        "issue_category": "RAAD",
+        "issue_subcategory": "Feature Request"
+    },
+    {
+        "functionalArea": "Dev and Deploy",
+        "team": "RAAD",
+        "IssueTypeRelation": "General Issue",
+        "issueTypeURL": "https://gitlab.kesselrun.us/kr/adcp/integration/dev-support-service-desk/-/issues/new?issue[title]=Dev and Deploy RAAD General Issue&issuable_template=Dev_Deploy_RADD-General-Request",
+        "issue_category": "RAAD",
+        "issue_subcategory": "General Issue"
+    },
+    {
+        "functionalArea": "Dev and Deploy",
+        "team": "SECREL",
+        "IssueTypeRelation": "Pipeline Issues",
+        "issueTypeURL": "https://gitlab.kesselrun.us/kr/adcp/integration/dev-support-service-desk/-/issues/new?issue[title]=Dev and Deploy SECREL Pipeline Issues&issuable_template=Dev_Deploy_SECREL-Pipeline-Issues",
+        "issue_category": "",
+        "issue_subcategory": ""
+    },
+    {
+        "functionalArea": "Dev and Deploy",
+        "team": "SECREL",
+        "IssueTypeRelation": "General Issue",
+        "issueTypeURL": "https://gitlab.kesselrun.us/kr/adcp/integration/dev-support-service-desk/-/issues/new?issue[title]=Dev and Deploy SECREL General Issue&issuable_template=",
+        "issue_category": "",
+        "issue_subcategory": ""
+    },
+    {
+        "functionalArea": "GDI",
+        "team": "Public Cloud",
+        "IssueTypeRelation": "General Issue",
+        "issueTypeURL": "https://gitlab.kesselrun.us/kr/adcp/integration/dev-support-service-desk/-/issues/new?issue[title]=GDI Public Cloud General Issue&issuable_template=",
+        "issue_category": "",
+        "issue_subcategory": ""
+    },
+    {
+        "functionalArea": "K8",
+        "team": "K8-Foundations",
+        "IssueTypeRelation": "General Issue",
+        "issueTypeURL": "https://gitlab.kesselrun.us/kr/adcp/integration/dev-support-service-desk/-/issues/new?issue[title]=K8 K8-Foundations General Issue&issuable_template=",
+        "issue_category": "Kubernetes",
+        "issue_subcategory": "General Issue"
+    },
+    {
+        "functionalArea": "K8",
+        "team": "k8-Hardened Application Platform",
+        "IssueTypeRelation": "General Issue",
+        "issueTypeURL": "https://gitlab.kesselrun.us/kr/adcp/integration/dev-support-service-desk/-/issues/new?issue[title]=K8 k8-Hardened Application Platform General Issue&issuable_template=K8_HAP-General_Issue",
+        "issue_category": "a",
+        "issue_subcategory": "a"
+    },
+    {
+        "functionalArea": "TAS",
+        "team": "Platform Engineering",
+        "IssueTypeRelation": "General Issue",
+        "issueTypeURL": "https://gitlab.kesselrun.us/kr/adcp/integration/dev-support-service-desk/-/issues/new?issue[title]=TAS Platform Engineering General Issue&issuable_template=",
+        "issue_category": "",
+        "issue_subcategory": ""
+    },
+    {
+        "functionalArea": "TAS",
+        "team": "Platform Operations",
+        "IssueTypeRelation": "Change Request",
+        "issueTypeURL": "https://gitlab.kesselrun.us/kr/adcp/integration/dev-support-service-desk/-/issues/new?issue[title]=TAS Platform Operations Change Request&issuable_template=TAS_PO-CAB_Request",
+        "issue_category": "",
+        "issue_subcategory": ""
+    },
+    {
+        "functionalArea": "TAS",
+        "team": "Platform Operations",
+        "IssueTypeRelation": "Work Request",
+        "issueTypeURL": "https://gitlab.kesselrun.us/kr/adcp/integration/dev-support-service-desk/-/issues/new?issue[title]=TAS Platform Operations Work Request&issuable_template=TAS_PO-Chore",
+        "issue_category": "",
+        "issue_subcategory": ""
+    },
+    {
+        "functionalArea": "TAS",
+        "team": "Platform Operations",
+        "IssueTypeRelation": "Feature Request",
+        "issueTypeURL": "https://gitlab.kesselrun.us/kr/adcp/integration/dev-support-service-desk/-/issues/new?issue[title]=TAS Platform Operations Feature Request&issuable_template=TAS_PO-Feature",
+        "issue_category": "",
+        "issue_subcategory": ""
+    },
+    {
+        "functionalArea": "TAS",
+        "team": "Platform Operations",
+        "IssueTypeRelation": "General Issue",
+        "issueTypeURL": "https://gitlab.kesselrun.us/kr/adcp/integration/dev-support-service-desk/-/issues/new?issue[title]=TAS Platform Operations General Issue&issuable_template=",
+        "issue_category": "",
+        "issue_subcategory": ""
+    },
+    {
+        "functionalArea": "TAS",
+        "team": "SRE",
+        "IssueTypeRelation": "General Issues",
+        "issueTypeURL": "https://gitlab.kesselrun.us/kr/adcp/integration/dev-support-service-desk/-/issues/new?issue[title]=TAS SRE General Issues&issuable_template=TAS_SRE-General_Issue",
+        "issue_category": "",
+        "issue_subcategory": ""
+    },
+    {
+        "functionalArea": "Trusted X",
+        "team": "Trusted X",
+        "IssueTypeRelation": "General Issue",
+        "issueTypeURL": "https://gitlab.kesselrun.us/kr/adcp/integration/dev-support-service-desk/-/issues/new?issue[title]=Trusted X Trusted X General Issue&issuable_template=",
+        "issue_category": "Trusted X",
+        "issue_subcategory": "General Issue"
+    },
+    {
+        "functionalArea": "Trusted X",
+        "team": "Trusted X",
+        "IssueTypeRelation": "Trusted Agent Onboarding",
+        "issueTypeURL": "https://gitlab.kesselrun.us/kr/adcp/integration/dev-support-service-desk/-/issues/new?issue[title]=Trusted X Trusted X Trusted Agent Onboarding&issuable_template=TrustedX-TrustedAgentOnboarding",
+        "issue_category": "Trusted X",
+        "issue_subcategory": "Onboarding"
+    },
+    {
+        "functionalArea": "Trusted X",
+        "team": "Trusted X",
+        "IssueTypeRelation": "Trusted Deployer Onboarding",
+        "issueTypeURL": "https://gitlab.kesselrun.us/kr/adcp/integration/dev-support-service-desk/-/issues/new?issue[title]=Trusted X Trusted X Trusted Deployer Onboarding&issuable_template=TrustedX-TrustedDeployerOnboarding",
+        "issue_category": "Trusted X",
+        "issue_subcategory": "Onbaording"
+    }
+]

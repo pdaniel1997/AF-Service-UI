@@ -1,0 +1,254 @@
+[
+    {
+        "functionalArea": "ADCP Documentation",
+        "team": "ADCP Docs",
+        "IssueTypeRelation": "Request Technical Writer",
+        "text": "Tech Writer Request",
+        "url": "https://adcp.docs.kesselrun.us/documentation/adcp-documentation/#tech-writer-request",
+        "issue_category": "Docs",
+        "issue_subcategory": "Request"
+    },
+    {
+        "functionalArea": "ADCP Documentation",
+        "team": "ADCP Docs",
+        "IssueTypeRelation": "Reviewer Feedback",
+        "text": "Contribution Guide",
+        "url": "https://adcp.docs.kesselrun.us/support/?_highlight=feedback#additional-assistance",
+        "issue_category": "Docs",
+        "issue_subcategory": "Request"
+    },
+    {
+        "functionalArea": "ADCP Documentation",
+        "team": "ADCP Docs",
+        "IssueTypeRelation": "Reviewer Feedback",
+        "text": "Docs Support",
+        "url": "https://adcp.docs.kesselrun.us/support/scope-of-technical-support/",
+        "issue_category": "Docs",
+        "issue_subcategory": "Request"
+    },
+    {
+        "functionalArea": "ADCP Documentation",
+        "team": "ADCP Docs",
+        "IssueTypeRelation": "General Issue",
+        "text": "ADCP Docs Home",
+        "url": "https://adcp.docs.kesselrun.us/adcp/",
+        "issue_category": "Docs",
+        "issue_subcategory": "General Issue"
+    },
+    {
+        "functionalArea": "Customer Experience",
+        "team": "Customer Experience",
+        "IssueTypeRelation": "General Issue",
+        "text": "Customer Experience Documentation",
+        "url": "https://adcp.docs.kesselrun.us/adcp-mfa-cx/",
+        "issue_category": "",
+        "issue_subcategory": ""
+    },
+    {
+        "functionalArea": "Dev and Deploy",
+        "team": "Auto Deploy",
+        "IssueTypeRelation": "General Issue",
+        "text": "Autodeploy Help Documentation",
+        "url": "https://gitlab.kesselrun.us/groups/kr/adcp/cicd/k8s-svcs/deployment/-/wikis/home",
+        "issue_category": "",
+        "issue_subcategory": ""
+    },
+    {
+        "functionalArea": "Dev and Deploy",
+        "team": "CAT",
+        "IssueTypeRelation": "General Issue",
+        "text": "CAT Documentation Home",
+        "url": "https://adcp.docs.kesselrun.us/cicd/cat/cat-101/",
+        "issue_category": "CAT",
+        "issue_subcategory": "General Issue"
+    },
+    {
+        "functionalArea": "Dev and Deploy",
+        "team": "CAT",
+        "IssueTypeRelation": "Gitlab Change Request",
+        "text": "CAT Documentation Home",
+        "url": "https://adcp.docs.kesselrun.us/cicd/cat/cat-101/",
+        "issue_category": "Change Request",
+        "issue_subcategory": "Gitlab"
+    },
+    {
+        "functionalArea": "Dev and Deploy",
+        "team": "CAT",
+        "IssueTypeRelation": "Gitlab Upgrade",
+        "text": "CAT Documentation Home",
+        "url": "https://adcp.docs.kesselrun.us/cicd/cat/cat-101/",
+        "issue_category": "Gitlab",
+        "issue_subcategory": "Upgrade"
+    },
+    {
+        "functionalArea": "Dev and Deploy",
+        "team": "CAT",
+        "IssueTypeRelation": "Nexus Upgrade",
+        "text": "CAT Documentation Home",
+        "url": "https://adcp.docs.kesselrun.us/cicd/cat/cat-101/",
+        "issue_category": "Nexus",
+        "issue_subcategory": "Upgrade"
+    },
+    {
+        "functionalArea": "Dev and Deploy",
+        "team": "CAT",
+        "IssueTypeRelation": "Vault Upgrade",
+        "text": "CAT Documentation Home",
+        "url": "https://adcp.docs.kesselrun.us/cicd/cat/cat-101/",
+        "issue_category": "Vault",
+        "issue_subcategory": "Vault Upgrade"
+    },
+    {
+        "functionalArea": "Dev and Deploy",
+        "team": "RAAD",
+        "IssueTypeRelation": "Bug Report",
+        "text": "Filing a bug report",
+        "url": "https://gitlab.kesselrun.us/groups/kr/adcp/cicd/radd/-/wikis/home#the-background",
+        "issue_category": "RADD",
+        "issue_subcategory": "Bug or Error"
+    },
+    {
+        "functionalArea": "Dev and Deploy",
+        "team": "RAAD",
+        "IssueTypeRelation": "Feature Request",
+        "text": "Request a Feature",
+        "url": "https://gitlab.kesselrun.us/groups/kr/adcp/cicd/radd/-/wikis/Playbooks/Feature-Flags-in-the-Backend",
+        "issue_category": "RAAD",
+        "issue_subcategory": "Feature Request"
+    },
+    {
+        "functionalArea": "Dev and Deploy",
+        "team": "RAAD",
+        "IssueTypeRelation": "General Issue",
+        "text": "RAAD Documentation",
+        "url": "https://adcp.docs.kesselrun.us/support/teams/radd/",
+        "issue_category": "RAAD",
+        "issue_subcategory": "General Issue"
+    },
+    {
+        "functionalArea": "Dev and Deploy",
+        "team": "SECREL",
+        "IssueTypeRelation": "Pipeline Issues",
+        "text": "How to run a Pipeline",
+        "url": "https://adcp.docs.kesselrun.us/cicd/secrel/introduction/#secrel-pipelines",
+        "issue_category": "",
+        "issue_subcategory": ""
+    },
+    {
+        "functionalArea": "Dev and Deploy",
+        "team": "SECREL",
+        "IssueTypeRelation": "General Issue",
+        "text": "SECREL Documentation",
+        "url": "https://adcp.docs.kesselrun.us/cicd/secrel/introduction/",
+        "issue_category": "",
+        "issue_subcategory": ""
+    },
+    {
+        "functionalArea": "GDI",
+        "team": "Public Cloud",
+        "IssueTypeRelation": "General Issue",
+        "text": "GDI Documentation",
+        "url": "https://adcp.docs.kesselrun.us/adcp-mfa-gdi/",
+        "issue_category": "",
+        "issue_subcategory": ""
+    },
+    {
+        "functionalArea": "K8",
+        "team": "K8-Foundations",
+        "IssueTypeRelation": "General Issue",
+        "text": "K8 Documentation",
+        "url": "https://adcp.docs.kesselrun.us/adcp-mfa-k8/",
+        "issue_category": "Kubernetes",
+        "issue_subcategory": "General Issue"
+    },
+    {
+        "functionalArea": "K8",
+        "team": "k8-Hardened Application Platform",
+        "IssueTypeRelation": "General Issue",
+        "text": "General Info",
+        "url": "https://adcp.docs.kesselrun.us/operations/odst/faq/",
+        "issue_category": "a",
+        "issue_subcategory": "a"
+    },
+    {
+        "functionalArea": "TAS",
+        "team": "Platform Engineering",
+        "IssueTypeRelation": "General Issue",
+        "text": "TAS Engineering Documentation",
+        "url": "https://adcp.docs.kesselrun.us/adcp-mfa-tas/",
+        "issue_category": "",
+        "issue_subcategory": ""
+    },
+    {
+        "functionalArea": "TAS",
+        "team": "Platform Operations",
+        "IssueTypeRelation": "Change Request",
+        "text": "Change Request Process",
+        "url": "https://adcp.docs.kesselrun.us/adcp-mfa-tas/",
+        "issue_category": "",
+        "issue_subcategory": ""
+    },
+    {
+        "functionalArea": "TAS",
+        "team": "Platform Operations",
+        "IssueTypeRelation": "Work Request",
+        "text": "How to Request Hands-on Help",
+        "url": "https://adcp.docs.kesselrun.us/adcp-mfa-tas/",
+        "issue_category": "",
+        "issue_subcategory": ""
+    },
+    {
+        "functionalArea": "TAS",
+        "team": "Platform Operations",
+        "IssueTypeRelation": "Feature Request",
+        "text": "Feature Request Process",
+        "url": "https://adcp.docs.kesselrun.us/adcp-mfa-tas/",
+        "issue_category": "",
+        "issue_subcategory": ""
+    },
+    {
+        "functionalArea": "TAS",
+        "team": "Platform Operations",
+        "IssueTypeRelation": "General Issue",
+        "text": "TAS Platform Info",
+        "url": "https://adcp.docs.kesselrun.us/adcp-mfa-tas/",
+        "issue_category": "",
+        "issue_subcategory": ""
+    },
+    {
+        "functionalArea": "TAS",
+        "team": "SRE",
+        "IssueTypeRelation": "General Issues",
+        "text": "SRE Team",
+        "url": "https://adcp.docs.kesselrun.us/ops/odst/",
+        "issue_category": "",
+        "issue_subcategory": ""
+    },
+    {
+        "functionalArea": "Trusted X",
+        "team": "Trusted X",
+        "IssueTypeRelation": "General Issue",
+        "text": "Trusted X Documentation",
+        "url": "https://adcp.docs.kesselrun.us/support/teams/Trusted%20X/",
+        "issue_category": "Trusted X",
+        "issue_subcategory": "General Issue"
+    },
+    {
+        "functionalArea": "Trusted X",
+        "team": "Trusted X",
+        "IssueTypeRelation": "Trusted Agent Onboarding",
+        "text": "Trusted X Documentation",
+        "url": "https://adcp.docs.kesselrun.us/support/teams/trusted-x/?_highlight=trusted&_highlight=x",
+        "issue_category": "Trusted X",
+        "issue_subcategory": "Onboarding"
+    },
+    {
+        "functionalArea": "Trusted X",
+        "team": "Trusted X",
+        "IssueTypeRelation": "Trusted Deployer Onboarding",
+        "text": "Trusted X Documentation",
+        "url": "https://adcp.docs.kesselrun.us/support/teams/trusted-x/?_highlight=trusted&_highlight=x",
+        "issue_category": "Trusted X",
+        "issue_subcategory": "Onbaording"
+    }
+]
