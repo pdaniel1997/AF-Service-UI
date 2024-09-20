@@ -19,12 +19,12 @@ const MainLayout = () => {
   // Extract unique MFA options
   const mfaOptions = useMemo(() => {
     return [...new Set(issueData.map(item => item.functionalArea).filter(Boolean))];
-  }, [issueData]);
+  }, []); // Removed issueData from dependency array
 
   // Extract unique Category options
   const categoryOptions = useMemo(() => {
     return [...new Set(issueData.map(item => item.issue_category).filter(Boolean))];
-  }, [issueData]);
+  }, []); // Removed issueData from dependency array
 
   // Filter Sub-Category options based on the selected Category
   const subCategoryOptions = useMemo(() => {
@@ -34,7 +34,7 @@ const MainLayout = () => {
         .map(item => item.issue_subcategory)
         .filter(Boolean)
     )];
-  }, [selectedCategory, issueData]);
+  }, [selectedCategory]); // Removed issueData from dependency array
 
   // Filter teams based on the selected MFA
   const mfaTeamOptions = useMemo(() => {
@@ -44,7 +44,7 @@ const MainLayout = () => {
         .map(item => item.team)
         .filter(Boolean)
     )];
-  }, [selectedMFA, issueData]);
+  }, [selectedMFA]); // Removed issueData from dependency array
 
   // Filter issue types based on the selected MFA and selected Team
   const issueTypeOptions = useMemo(() => {
@@ -54,7 +54,7 @@ const MainLayout = () => {
         .map(item => item.IssueTypeRelation)
         .filter(Boolean)
     )];
-  }, [selectedMFA, selectedTeam, issueData]);
+  }, [selectedMFA, selectedTeam]); // Removed issueData from dependency array
 
   // Filter the issue data based on selected filters
   const filteredIssues = useMemo(() => {
@@ -69,7 +69,7 @@ const MainLayout = () => {
     return issueData.filter(item =>
       Object.keys(filters).every(key => item[key] === filters[key])
     );
-  }, [selectedCategory, selectedSubCategory, selectedMFA, selectedTeam, selectedIssueType, issueData]);
+  }, [selectedCategory, selectedSubCategory, selectedMFA, selectedTeam, selectedIssueType]); // Removed issueData from dependency array
 
   // Filter the knowledge articles based on search query and selected filters
   const filteredKnowledgeArticles = useMemo(() => {
@@ -96,7 +96,7 @@ const MainLayout = () => {
     });
 
     return uniqueArticles;
-  }, [searchQuery, selectedCategory, selectedSubCategory, selectedMFA, selectedTeam, selectedIssueType, knowledgeArticles]);
+  }, [searchQuery, selectedCategory, selectedSubCategory, selectedMFA, selectedTeam, selectedIssueType]); // Removed knowledgeArticles from dependency array
 
   // Determine whether to show issue cards based on dropdown selections
   const showIssues = selectedCategory || selectedMFA;

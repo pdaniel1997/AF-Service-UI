@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.df265140.css",
+    "main.js": "/static/js/main.91b6910b.js",
+    "static/js/453.1256c067.chunk.js": "/static/js/453.1256c067.chunk.js",
+    "static/media/ADCP-logo.png": "/static/media/ADCP-logo.211b43dd1cfd84fa5896.png",
+    "index.html": "/index.html",
+    "main.df265140.css.map": "/static/css/main.df265140.css.map",
+    "main.91b6910b.js.map": "/static/js/main.91b6910b.js.map",
+    "453.1256c067.chunk.js.map": "/static/js/453.1256c067.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df265140.css",
+    "static/js/main.91b6910b.js"
+  ]
+}
