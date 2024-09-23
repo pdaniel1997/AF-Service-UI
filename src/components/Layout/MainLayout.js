@@ -89,7 +89,7 @@ const MainLayout = () => {
   // Filter the knowledge articles based on search query and selected filters
   const filteredKnowledgeArticles = useMemo(() => {
     const filteredArticles = knowledgeArticles.filter(article => {
-      const matchesSearchQuery = article.text.toLowerCase().includes(searchQuery.toLowerCase());
+    const matchesSearchQuery= (article.text || '').toLowerCase().includes(searchQuery.toLowerCase());
       const matchesCategory = selectedCategory ? article.issue_category === selectedCategory : true;
       const matchesSubCategory = selectedSubCategory ? article.issue_subcategory === selectedSubCategory : true;
       const matchesMFA = selectedMFA ? article.functionalArea === selectedMFA : true;
